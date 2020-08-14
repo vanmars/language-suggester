@@ -12,49 +12,40 @@
 </head>
 <body>
   <div class="container">
-      <!-- Modal -->
-      <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              ...
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+    <!-- Heading -->
+    <div class="jumbotron text-center shadow-lg mt-2">
+      <div class= "pb-3 mt-0 popoverDiv d-inline-flex justify-content-around">
+        <div class="container modalContainer">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn-sm btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Welcome!
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Hi there!</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                <div class="modal-body">
+                  Welcome to the programming language selector! We are so glad you've arrived.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>  -->
-    
-    
-    <!-- Heading -->
-    <div class="jumbotron text-center shadow-lg mt-2">
-      <p class="lead pb-3 mt-0">Wondering which  programming language best suits you? <span class="text-muted">Let's find out!</span></p>
-      <hr>
-      <br>
-      <h3 class="display-4">Programming Language Selector</h3>
-      <br>
-      <hr>
-      <div class= "pt-3 mb-0 popoverDiv">
-        <button type="button" class=" btn-sm btn-primary" data-toggle="popover" title="Definition" data-content="A programming language is a set of commands, instructions, and other syntax used to create a software program. Languages that programmers use to write code are called 'high-level languages.' This code can be compiled into a 'low-level language,' which is recognized directly by the computer hardware.">Wait, what's a programming language?</button>
+        <button type="button" class=" btn-sm btn-primary text-nowrap" data-toggle="popover" title="Definition" data-content="A programming language is a set of commands, instructions, and other syntax used to create a software program. Languages that programmers use to write code are called 'high-level languages.' This code can be compiled into a 'low-level language,' which is recognized directly by the computer hardware.">Wait, what's a programming language?</button>
       </div>
-      
-
-      <!-- Button trigger modal -->
-      <!-- <button type="click" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-        Launch demo modal
-      </button> -->
-
-    
-    
-      
+      <hr>
+      <h3 class="display-4">Programming Language Selector</h3>
+      <hr>
+      <p class="lead pt-3 mb-0">Wondering which language best suits you? <span class="text-muted">Let's find out!</span></p>
     </div>
     <!-- Form -->
     <div class="card shadow-lg mb-2">
