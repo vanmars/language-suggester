@@ -1,12 +1,12 @@
 # _Language Selector_
 
-#### _Programming Language Recomendation Web App, 14 August 2020_
+#### _Web application to recommend programming language, 14 August 2020_
 
 #### By _**Vanessa Stewart**_
 
 ## Description
 
-_This is a web application that uses a form to gather personal user data that is then processed by an algorithm to recommend the programming language best suited for that user._
+_This is a web application that uses a form to gather personal user data that is then processed using jQuery to recommend the programming language best suited for that user._
 
 ## Setup/Installation Requirements
 To View Project:
@@ -19,8 +19,7 @@ To View and Work with Code:
 
 ## Known Bugs
 
-To Fix Items
-* Add to this bugs section once page is built out
+* Need to add animations and perfect styling
 
 ## Support and contact details
 
