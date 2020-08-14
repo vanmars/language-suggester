@@ -31,28 +31,28 @@ $(document).ready(function() {
     if (nameInput) {
       if (ruby(companiesInput, syntaxInput, debugInput, frameworkInput, adjectiveInput)) {
         $("#languageForm").hide();
-        $(".imgResult").html("<img src='img/ruby.jpeg' class='card-img' alt='Image of Ruby language on computer'>");
+        $(".imgResult").html("<img src='img/ruby.jpeg' class='card-img p-1 ml-2 mt-4' alt='Image of Ruby language on computer'>");
         $(".name").text(nameInput);
         $(".langResult").text("RUBY!");
         $(".urlResult").html("<a href='https://www.ruby-lang.org/en/documentation/quickstart/'>Learn more here!</a>");
-        $("#result").show();
+        $("#result").slideDown();
       } else if (javascript(companiesInput, syntaxInput, debugInput, frameworkInput, adjectiveInput)){
         $("#languageForm").hide();
-        $(".imgResult").html("<img src='img/javascript.jpeg' class='card-img' alt='Image of JavaScript language on computer'>");
+        $(".imgResult").html("<img src='img/javascript.jpeg' class='card-img p-2' alt='Image of JavaScript language on computer'>");
         $(".name").text(nameInput);
         $(".langResult").text("JAVASCRIPT!");
         $(".urlResult").html("<a href='https://www.w3schools.com/js/'>Learn more here!</a>");
         $("#result").show();
       } else if (python(companiesInput, syntaxInput, debugInput, frameworkInput, adjectiveInput)){
         $("#languageForm").hide();
-        $(".imgResult").html("<img src='img/python.jpeg' class='card-img' alt='Image of Python language on computer'>");
+        $(".imgResult").html("<img src='img/python.jpeg' class='card-img p-2' alt='Image of Python language on computer'>");
         $(".name").text(nameInput);
         $(".langResult").text("PYTHON!");
         $(".urlResult").html("<a href='https://www.python.org/about/gettingstarted/'>Learn more here!</a>");
         $("#result").show();
       } else {
         $("#languageForm").hide();
-        $(".imgResult").html("<img src='img/go.png' class='card-img' alt='Image of Ruby language on computer'>");
+        $(".imgResult").html("<img src='img/go.png' class='card-img p-2' alt='Image of Ruby language on computer'>");
         $(".name").text(nameInput);
         $(".langResult").text("GO!");
         $(".urlResult").html("<a href='https://golang.org/doc/install'>Learn more here!</a>");
