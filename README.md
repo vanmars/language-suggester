@@ -1,4 +1,4 @@
-# _Language Selector_
+# _Language Suggester_
 
 #### _Web application for recommending a programming language, 14 August 2020_
 #### By _**Vanessa Stewart**_
