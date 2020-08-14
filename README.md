@@ -1,14 +1,11 @@
 # _Language Selector_
 
-#### _Web application for recommending a programming language_
-#### _14 August 2020_
-
-
+#### _Web application for recommending a programming language, 14 August 2020_
 #### By _**Vanessa Stewart**_
 
 ## Description
 
-_This is a web application that uses a form to gather personal user data that is then processed using jQuery to recommend the programming language best suited for that user._
+This is a web application that uses a form to gather personal user data that is then processed using jQuery to recommend the programming language best suited for that user.
 
 ## Setup/Installation Requirements
 To View Project:
@@ -20,12 +17,8 @@ To View and Work with Code:
 
 
 ## Known Bugs
-Items to Fix
-* Reults Div Responsiveness: At 780px, the "JavaScript" langResult wraps, when it should not.
-
-Items to Add
-* Animations
-* Additional styling
+Welcome buttons
+* The 'Welcome' and 'Wait, what's a programming language?' buttons do not provide much value added content, but do demonstrate the use of a modal and a popover.
 
 ## Support and contact details
 
@@ -41,7 +34,7 @@ Email vstewart1213@gmail.com concerning issues, questions, ideas, or concerns.
 
 MIT License
 
-Copyright (c) 2020 **_Vanessa Stewart_**
+Copyright (c) 2020 Vanessa Stewart
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
