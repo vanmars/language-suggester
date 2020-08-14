@@ -20,10 +20,6 @@ function python (num1,num2,num3,num4,num5) {
 
 // User Interface Logic
 $(document).ready(function() {
-  // Popovers
-  $(function () {
-    $('[data-toggle="popover"]').popover()
-  });
   // Form
   $("#languageForm").submit(function(event) {
     event.preventDefault();
@@ -36,7 +32,6 @@ $(document).ready(function() {
     if (nameInput) {
       if (ruby(companiesInput, syntaxInput, debugInput, frameworkInput, adjectiveInput)) {
         $("#languageForm").hide();
-        $(".popoverDiv").hide();
         $(".imgResult").html("<img src='img/ruby.jpeg' class='card-img img-fluid p-3' style='max-width:100% height:auto' alt='Image of Ruby language on computer'>");
         $(".name").text(nameInput);
         $(".langResult").text("RUBY!");
@@ -44,7 +39,6 @@ $(document).ready(function() {
         $("#result").slideDown();
       } else if (javascript(companiesInput, syntaxInput, debugInput, frameworkInput, adjectiveInput)){
         $("#languageForm").hide();
-        $(".popoverDiv").hide();
         $(".imgResult").html("<img src='img/javascript.jpeg' class='card-img img-fluid p-3' style='max-width:100% height:auto' alt='Image of JavaScript language on computer'>");
         $(".name").text(nameInput);
         $(".langResult").text("JAVASCRIPT!");
@@ -52,7 +46,6 @@ $(document).ready(function() {
         $("#result").slideDown();
       } else if (python(companiesInput, syntaxInput, debugInput, frameworkInput, adjectiveInput)){
         $("#languageForm").hide();
-        $(".popoverDiv").hide();
         $(".imgResult").html("<img src='img/python.jpeg' class='card-img img-fluid p-3' style='max-width:100% height:auto' alt='Image of Python language on computer'>");
         $(".name").text(nameInput);
         $(".langResult").text("PYTHON!");
@@ -60,7 +53,6 @@ $(document).ready(function() {
         $("#result").slideDown();
       } else {
         $("#languageForm").hide();
-        $(".popoverDiv").hide();
         $(".imgResult").html("<img src='img/go.png' class='card-img img-fluid p-3' style='max-width:100% height:auto' alt='Image of Ruby language on computer'>");
         $(".name").text(nameInput);
         $(".langResult").text("GO!");
@@ -75,5 +67,9 @@ $(document).ready(function() {
       $("#result").slideUp();
       $("#languageForm").fadeIn(); 
     });
+  });
+  // Popovers
+  $(function () {
+    $('[data-toggle="popover"]').popover()
   });
 });
