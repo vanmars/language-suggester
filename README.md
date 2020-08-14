@@ -17,7 +17,7 @@ To View and Work with Code:
 
 
 ## Known Bugs
-Welcome buttons
+Welcome Buttons:
 * The 'Welcome' and 'Wait, what's a programming language?' buttons do not provide much value added content, but do demonstrate the use of a modal and a popover.
 
 ## Support and contact details
@@ -28,7 +28,7 @@ Email vstewart1213@gmail.com concerning issues, questions, ideas, or concerns.
 
 * HTML
 * CSS/Bootstrap
-* JS/jQuery
+* JS/jQuery/Popover.js
 
 ### License
 
