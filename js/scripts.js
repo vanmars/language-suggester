@@ -22,6 +22,7 @@ function python (num1, num2, num3, num4, num5) {
 $(document).ready(function() {
   $("#languageForm").submit(function(event) {
     event.preventDefault();
+    const nameInput = $("#name").val();
     const companiesInput= parseInt($("#companies").val());
     const syntaxInput= parseInt($("#syntax").val());
     const debugInput= parseInt($("#debug").val());
@@ -30,7 +31,13 @@ $(document).ready(function() {
 
     if (ruby(companiesInput, syntaxInput, debugInput, frameworkInput, adjectiveInput)) {
       $("#languageForm").hide();
-      $("#result").text("You should study Ruby!");
+      $(".imgResult").html("<img src='img/ruby.jpeg' class='card-img' alt='Image of Ruby language on computer'>");
+      $(".name").text(nameInput);
+      $(".langResult").text("RUBY!");
+      $(".urlResult").html("<a href='https://www.ruby-lang.org/en/documentation/quickstart/'>Learn more here!</a>");
+      $("#result").show();
+
+
     } else if (javascript(companiesInput, syntaxInput, debugInput, frameworkInput, adjectiveInput)){
       $("#languageForm").hide();
       $("#result").text("You should study JavaScript!");

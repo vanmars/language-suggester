@@ -1,6 +1,6 @@
 # _Language Selector_
 
-#### _Web Application that Suggests Programming Language, 14 August 2020_
+#### _Programming Language Recomendation Web App, 14 August 2020_
 
 #### By _**Vanessa Stewart**_
 
@@ -10,7 +10,7 @@ _This is a web application that uses a form to gather personal user data that is
 
 ## Setup/Installation Requirements
 To View Project:
-* Open a web browser of your choice and navigate to the following link:
+* Open a web browser of your choice and navigate to the following link: https://vanmars.github.io/language-suggester/
 
 To View and Work with Code:
 * Clone this repository, using the 'git-clone' terminal command.
