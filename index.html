@@ -71,17 +71,18 @@
       </form>
     </div>
     <!-- Return Div -->
-    <div id="result">
+    <div id="result" class="shadow p-2">
       <div class="card my-3 d-block mx-auto shadow-lg" style="max-width: 760px;">
         <div class="row no-gutters">
           <div class="col-md-6 imgResult">
           </div>
           <div class="col-md-6">
             <div class="card-body">
-              <h2 class="card-title">The results are in!</h2>
+              <h2 class="card-title" id="resultsText">The results are in!</h2>
               <hr>
               <h5 class="card-text"><span class="name"></span>, you should study . . . <br><br><span class="langResult display-4"></span></h5>
               <h5 class="card-text"><small class="text-muted"><span class="urlResult"></span></small></h5>
+              <button type="click" id="return" class="btn-sm btn-primary">Return to Survey</button>
             </div>
           </div>
         </div>

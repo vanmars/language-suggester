@@ -20,8 +20,12 @@ To View and Work with Code:
 
 
 ## Known Bugs
+Items to Fix
+* Reults Div Responsiveness: At 780px, the "JavaScript" langResult wraps, when it should not.
 
-* Need to add animations and perfect styling
+Items to Add
+* Animations
+* Additional styling
 
 ## Support and contact details
 
