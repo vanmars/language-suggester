@@ -40,13 +40,29 @@ $(document).ready(function() {
 
     } else if (javascript(companiesInput, syntaxInput, debugInput, frameworkInput, adjectiveInput)){
       $("#languageForm").hide();
-      $("#result").text("You should study JavaScript!");
+      $(".imgResult").html("<img src='img/javascript.jpeg' class='card-img' alt='Image of JavaScript language on computer'>");
+      $(".name").text(nameInput);
+      $(".langResult").text("JAVASCRIPT!");
+      $(".urlResult").html("<a href='https://www.w3schools.com/js/'>Learn more here!</a>");
+      $("#result").show();
+
     } else if (python(companiesInput, syntaxInput, debugInput, frameworkInput, adjectiveInput)){
       $("#languageForm").hide();
-      $("#result").text("You should study Python!");
+      $(".imgResult").html("<img src='img/python.jpeg' class='card-img' alt='Image of Python language on computer'>");
+      $(".name").text(nameInput);
+      $(".langResult").text("PYTHON!");
+      $(".urlResult").html("<a href='https://www.python.org/about/gettingstarted/'>Learn more here!</a>");
+      $("#result").show();
+
     } else {
       $("#languageForm").hide();
-      $("#result").text("You should study Go!");
+      $(".imgResult").html("<img src='img/go.png' class='card-img' alt='Image of Ruby language on computer'>");
+      $(".name").text(nameInput);
+      $(".langResult").text("GO!");
+      $(".urlResult").html("<a href='https://golang.org/doc/install'>Learn more here!</a>");
+      $("#result").show();
+
+
     };
   });
 });
