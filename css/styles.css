@@ -17,6 +17,10 @@ body{
   color: white;
 }
 
+#formHeader {
+  color: grey;
+}
+
 .langResult, label {
   color: #F0803C;
 }
