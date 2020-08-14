@@ -11,10 +11,6 @@ body{
   background-color: #d6c6f5;
 }
 
-/* Result Div Styling */
-#result {
-  display:none;
-}
 
 /* Fonts */
 .lead {
@@ -24,3 +20,10 @@ body{
 label {
   color: #DC602E;
 }
+
+
+/* Result Div */
+#result {
+  display:none;
+}
+

@@ -42,21 +42,21 @@ $(document).ready(function() {
         $(".name").text(nameInput);
         $(".langResult").text("JAVASCRIPT!");
         $(".urlResult").html("<a href='https://www.w3schools.com/js/'>Learn more here!</a>");
-        $("#result").show();
+        $("#result").slideDown();
       } else if (python(companiesInput, syntaxInput, debugInput, frameworkInput, adjectiveInput)){
         $("#languageForm").hide();
         $(".imgResult").html("<img src='img/python.jpeg' class='card-img p-2' alt='Image of Python language on computer'>");
         $(".name").text(nameInput);
         $(".langResult").text("PYTHON!");
         $(".urlResult").html("<a href='https://www.python.org/about/gettingstarted/'>Learn more here!</a>");
-        $("#result").show();
+        $("#result").slideDown();
       } else {
         $("#languageForm").hide();
         $(".imgResult").html("<img src='img/go.png' class='card-img p-2' alt='Image of Ruby language on computer'>");
         $(".name").text(nameInput);
         $(".langResult").text("GO!");
         $(".urlResult").html("<a href='https://golang.org/doc/install'>Learn more here!</a>");
-        $("#result").show();
+        $("#result").slideDown();
       };
     } else {
       alert("Your name is important! Please enter it.")
