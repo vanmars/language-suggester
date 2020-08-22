@@ -1,4 +1,4 @@
-# _Language Suggester_
+# _Programming Language Suggester_
 
 #### _Web application for recommending a programming language, 14 August 2020_
 #### By _**Vanessa Stewart**_
@@ -22,7 +22,7 @@ Welcome Buttons:
 
 ## Support and contact details
 
-Email vstewart1213@gmail.com concerning issues, questions, ideas, or concerns.
+Connect with me at vanmariestewart@gmail.com concerning ideas for improving this application.
 
 ## Technologies Used
 
@@ -31,8 +31,6 @@ Email vstewart1213@gmail.com concerning issues, questions, ideas, or concerns.
 * JS/jQuery/Popover.js
 
 ### License
-
-MIT License
 
 Copyright (c) 2020 Vanessa Stewart
 
